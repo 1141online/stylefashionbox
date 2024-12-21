@@ -1,12 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyA_ywk0qUHHJXT5Cs7k6EMexJpXlcMofk8",
-  authDomain: "fashionjetvote.firebaseapp.com",
-  databaseURL: "https://fashionjetvote-default-rtdb.firebaseio.com",
-  projectId: "fashionjetvote",
-  storageBucket: "fashionjetvote.firebasestorage.app",
-  messagingSenderId: "309228209434",
-  appId: "1:309228209434:web:169c7872029060cd1fd8a3"
+  apiKey: "AIzaSyB-rbwS4IPua6pI_Yvj3z0TRM2pzJiB4Z8",
+  authDomain: "stylefashionbox.firebaseapp.com",
+  databaseURL: "https://stylefashionbox-default-rtdb.firebaseio.com",
+  projectId: "stylefashionbox",
+  storageBucket: "stylefashionbox.firebasestorage.app",
+  messagingSenderId: "911789664297",
+  appId: "1:911789664297:web:be82086c15075dcd585438"
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
