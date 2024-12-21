@@ -1,13 +1,13 @@
 
 // Initialize Firebase
 const firebaseConfig = {
-apiKey: "AIzaSyAio781iTz5bDWqyL-lC6T-5W9gbj3JlaY",
-authDomain: "fashartnow.firebaseapp.com",
-databaseURL: "https://fashartnow-default-rtdb.firebaseio.com",
-projectId: "fashartnow",
-storageBucket: "fashartnow.appspot.com",
-messagingSenderId: "515407002788",
-appId: "1:515407002788:web:188e1d81dc4235c7b83a31"
+  apiKey: "AIzaSyA_ywk0qUHHJXT5Cs7k6EMexJpXlcMofk8",
+  authDomain: "fashionjetvote.firebaseapp.com",
+  databaseURL: "https://fashionjetvote-default-rtdb.firebaseio.com",
+  projectId: "fashionjetvote",
+  storageBucket: "fashionjetvote.firebasestorage.app",
+  messagingSenderId: "309228209434",
+  appId: "1:309228209434:web:169c7872029060cd1fd8a3"
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
