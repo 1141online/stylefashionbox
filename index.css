@@ -12,6 +12,13 @@
             width: 100px; /* Adjust width as needed */
             height: auto;
         }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+            box-shadow: ;
+        }
         .candidate {
             display: inline-block;
             width: 30%;
